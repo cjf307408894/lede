@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: OpenWrt-CI
+name: OpenWrt-r7800
 
 on:
   push:
@@ -106,9 +106,8 @@ jobs:
 
           # 编译x64固件:
           cat >> .config <<EOF
-          CONFIG_TARGET_x86=y
-          CONFIG_TARGET_x86_64=y
-          CONFIG_TARGET_x86_64_Generic=y
+          CONFIG_TARGET_ipq806x=y
+          CONFIG_TARGET_ipq806x_DEVICE_netgear_r7800=y
           EOF
 
           # 固件压缩:
