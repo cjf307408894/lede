@@ -162,6 +162,8 @@ jobs:
           # CONFIG_PACKAGE_luci-app-wireguard=y
           # CONFIG_PACKAGE_luci-app-wrtbwmon=y
           CONFIG_PACKAGE_luci-app-usb-printer
+          CONFIG_PACKAGE_luci-app-unblockmusic
+          CONFIG_PACKAGE_luci-app-shairplay
           EOF
 
           # LuCI主题:
