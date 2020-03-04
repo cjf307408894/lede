@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: OpenWrtx64
+name: OpenWrt0304
 
 on:
   push:
